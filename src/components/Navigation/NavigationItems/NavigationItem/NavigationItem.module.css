@@ -6,7 +6,7 @@
 }
 
 .NavigationItem a {
-  color: #8F5C2C;
+  color: #8f5c2c;
   text-decoration: none;
   width: 100%;
   box-sizing: border-box;
@@ -17,6 +17,7 @@
 .NavigationItem a:active,
 .NavigationItem a.active {
   color: #40a4c8;
+  transition: ease-in;
 }
 
 @media (min-width: 500px) {
